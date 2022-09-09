@@ -1,0 +1,21 @@
+// Bootstrap-icons
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+.bi-thin {
+    font-weight: 100;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.same-style {
+
+    &:hover {
+
+        .language-dropdown,
+        .currency-dropdown {
+            display: block;
+        }
+    }
+}
