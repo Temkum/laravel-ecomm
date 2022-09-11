@@ -22,3 +22,7 @@ Route::get('/', function () {
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/shop', [HomeController::class, 'shop'])->name('shop');
+
+Route::get('/register', [HomeController::class, 'create'])->name('create');
+Route::get('/login', [HomeController::class, 'login'])->name('login');
+Route::get('/test', [HomeController::class, 'create']);

@@ -22,4 +22,14 @@ class HomeController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function login()
+    {
+        return view('pages.login');
+    }
+
+    public function create()
+    {
+        return view('pages.register');
+    }
 }

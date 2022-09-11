@@ -1883,6 +1883,10 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?e559bf06bc84fd9525e61ead3
   margin-top: 10rem;
 }
 
+.fw-700 {
+  font-weight: 700;
+}
+
 .main-menu nav a {
   text-transform: uppercase;
 }
@@ -1890,6 +1894,27 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?e559bf06bc84fd9525e61ead3
 .same-style:hover .language-dropdown,
 .same-style:hover .currency-dropdown {
   display: block;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+}
+input:focus,
+textarea:focus {
+  border: 0.7px solid rgb(110, 93, 93);
+}
+
+#scrollUp {
+  border-radius: 50%;
+}
+
+.contact-form input {
+  border: solid 1px red !important;
+  border-radius: 5px;
+}
+.contact-form input:focus {
+  border: 0.7px solid red;
 }
 
 @media screen and (max-width: 768px) {

@@ -9,6 +9,10 @@
     margin-top: 10rem;
 }
 
+.fw-700 {
+    font-weight: 700;
+}
+
 .main-menu {
 
     nav {
@@ -27,6 +31,33 @@
             display: block;
         }
     }
+}
+
+input,
+textarea {
+    border-radius: 5px;
+
+    &:focus {
+        border: .7px solid rgb(110, 93, 93);
+    }
+}
+
+#scrollUp {
+    border-radius: 50%;
+}
+
+
+.contact-form {
+
+    input {
+        border: solid 1px red !important;
+        border-radius: 5px;
+
+        &:focus {
+            border: .7px solid red;
+        }
+    }
+
 }
 
 // @media screen and (max-width: 1024px) {}
